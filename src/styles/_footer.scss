@@ -1,0 +1,28 @@
+@import "common";
+
+.Footer {
+  color: $common-color-mulled-wine;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: $common-12px;
+
+  &__top-link {
+    background: $common-color-kobi;
+    flex: 1 0 100%;
+    padding: $common-12px 0;
+    text-align: center;
+    text-decoration: none;
+
+    @media screen and (min-width: 415px) {
+      display: none;
+    }
+  }
+
+  &__copyright {
+    background: $common-color-prim;
+    flex: 1 0 100%;
+    font-weight: 300;
+    padding: $common-12px 0;
+    text-align: center;
+  }
+}

@@ -1,0 +1,21 @@
+@import "common";
+
+.Section {
+  //line-height: 1.5;
+  margin-bottom: $common-48px;
+
+  &:last-child {
+    margin: 0;
+  }
+
+  &__heading {
+    font-family: $common-font-heading;
+    font-size: $common-36px;
+    font-weight: 400;
+    margin: 0 0 $common-36px;
+  }
+
+  &__content {
+    font-weight: 300;
+  }
+}

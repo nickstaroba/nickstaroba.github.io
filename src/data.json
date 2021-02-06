@@ -1,0 +1,73 @@
+{
+  "pageTitle": "Nick Staroba - Enterprise Frontend Developer",
+  "name": "Nick Staroba",
+  "title": "Frontend Developer",
+  "introductionParagraphs": [
+    "I am a frontend developer creating user-centric single page applications and utilizing experience with interaction design, visual design, usability guidelines, accessibility, and code standards to contribute to any part of the development process.",
+    "Technology Summary: Agile, CI/CD, Functional Programming (FP), Git, HTML, JavaScript (ECMAScript 2019), React, React Hooks, React Testing Library, Redux, REST, SASS, Tooling, TypeScript, Unit Testing, User Experience (UX)."
+  ],
+  "links": [
+    {
+      "href": "/#contact",
+      "label": "Contact"
+    },
+    {
+      "href": "http://bit.ly/staroba-resume",
+      "label": "Resume"
+    }
+  ],
+  "github": {
+    "href": "https://github.com/nickstaroba/"
+  },
+  "linkedin": {
+    "href": "https://linkedin.com/in/nickstaroba"
+  },
+  "projects": [
+    {
+      "company": "TD Ameritrade (Contract)",
+      "timeframe": "March 2020 to Present",
+      "jobTitle": "Frontend Developer",
+      "name": "Enterprise DevOps Application",
+      "body": "This application provides a convenient interface for managing DevOps tasks for one of the largest online brokerage firms in the world. The DevOps portal provides access to IT assets that development teams need to get their tasks completed. The entire project employs a number of applications including a bundled React shared component library.",
+      "technologies": "Technology Summary: Agile, CI/CD, Component Library, CSS, Git, HTML, JavaScript, Jest, JSS, React, React Hooks, React Testing Library, Redux, Rollup, SASS, Unit Testing, webpack."
+    },
+    {
+      "company": "Ford Motor Company (Contract)",
+      "timeframe": "October 2019 to March 2020",
+      "jobTitle": "Frontend Developer",
+      "name": "Single Sign-On Application",
+      "body": "This single sign-on (SSO) application creates a single account experience for customers of a Michigan-based car manufacturer. The application provides an authentication library and external login experience for entities within the company. For example, a vehicle order reservation service or a vehicle maintenance service can provide the same authentication interaction (and single account) for their users.",
+      "technologies": "Technology Summary: Agile, CI/CD, CSS, Enzyme, Git, Gitflow, Github Enterprise, HTML, JavaScript, Jenkins, Jest, JSDoc, React, SASS, TypeScript, Unit Testing, webpack."
+    },
+    {
+      "company": "Domino's Pizza, Inc. (Contract)",
+      "timeframe": "May 2019 to October 2019",
+      "jobTitle": "Frontend Developer",
+      "name": "Enterprise Restaurant Store System",
+      "body": "This greenfield project's goal is to completely operate and manage a store for a Michigan-based chain of pizza restaurants. The frontend consisted of three applications: point of sale, food preparation, and delivery. The applications relied on Redux and RxJS to coordinate between each other through the backend systems.",
+      "technologies": "Technology Summary: Agile, Atlassian, Continuous Integration and Delivery/Deployment (CI/CD), CSS, Git, Gitflow, GraphQL, HTML, JavaScript, Jenkins, Jest, JSDoc, Lodash, React, React Testing Library, Redux, REST, RxJS (Observables), SASS, Unit Testing, User Experience (UX), webpack."
+    },
+    {
+      "company": "Aptiv Connected Services",
+      "timeframe": "February 2018 to May 2019",
+      "jobTitle": "Frontend Developer",
+      "name": "Enterprise Engineering Platform",
+      "body": "This platform aims to deliver fleet management, analytics, and telematics in real-time to connected vehicles. One function of the platform is to administer the configuration of data collection devices which are installed directly in engineering and production vehicles. The frontend uses React and higher-order components to manage a set of complex data-grid views and user interactions. These interactions were implemented in coordination with the UX designer to ensure final implementations were accepted.",
+      "technologies": "Technology Summary: ag-Grid, Agile, Atlassian, BEM, Blueprint, Continuous Integration and Continuous Delivery/Deployment (CI/CD), CSS, Enzyme, Git, Gitflow, Jest, JSDoc, Lodash, Moment.js, React, React Router, REST, SASS, Storybook, TypeScript, Unit Testing, User Experience (UX), webpack."
+    }
+  ],
+  "degrees": [
+    {
+      "date": "December 2017",
+      "location": "Ann Arbor, MI",
+      "school": "Washtenaw Community College",
+      "title": "AAS in Web Design and Development"
+    },
+    {
+      "date": "In Progress",
+      "location": "Ypsilanti, MI",
+      "school": "Eastern Michigan University",
+      "title": "BS in Technology Management (Web Development Concentration)"
+    }
+  ]
+}
