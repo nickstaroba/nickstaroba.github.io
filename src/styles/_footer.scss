@@ -8,10 +8,15 @@
 
   &__top-link {
     background: $common-color-kobi;
+    color: $common-color-mulled-wine;
     flex: 1 0 100%;
     padding: $common-12px 0;
     text-align: center;
     text-decoration: none;
+
+    &:visited {
+      color: $common-color-mulled-wine;
+    }
 
     @media screen and (min-width: 415px) {
       display: none;
