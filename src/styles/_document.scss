@@ -1,0 +1,14 @@
+@import "common";
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background: $common-color-alabaster;
+  color: $common-color-mulled-wine;
+  font-family: $common-font-body;
+  font-size: $common-18px;
+  line-height: 1.5;
+  min-width: 320px;
+}

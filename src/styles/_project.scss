@@ -1,0 +1,69 @@
+@import "common";
+
+$breakpoint: 575px;
+
+.Project {
+  &:not(:last-child) {
+    margin: 0 0 $common-36px;
+  }
+
+  &__header {
+    align-items: flex-end;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 $common-24px;
+
+    @media screen and (min-width: $breakpoint) {
+      @include left-border;
+    }
+  }
+
+  &__company {
+    flex-basis: 100%;
+    font-family: $common-font-heading;
+    font-size: $common-24px;
+    font-weight: 400;
+    margin: 0;
+
+    @media screen and (min-width: $breakpoint) {
+      flex-basis: 50%;
+      order: 1;
+    }
+  }
+
+  &__job-title {
+    flex-basis: 100%;
+    font-weight: 400;
+
+    @media screen and (min-width: $breakpoint) {
+      @include left-border;
+      flex-basis: 50%;
+      order: 2;
+    }
+  }
+
+  &__name {
+    flex-basis: 100%;
+    margin: 0 0 $common-12px;
+
+    @media screen and (min-width: $breakpoint) {
+      flex-basis: 50%;
+      margin: 0;
+      order: 3;
+    }
+  }
+
+  &__timeframe {
+    flex-basis: 100%;
+
+    @media screen and (min-width: $breakpoint) {
+      @include left-border;
+      flex-basis: 50%;
+      order: 4;
+    }
+  }
+
+  &__body {
+    font-weight: 300;
+  }
+}

@@ -1,0 +1,26 @@
+$common-font-body: "Roboto", Arial, sans-serif;
+$common-font-heading: "Roboto Condensed", "Arial Narrow", sans-serif;
+
+$common-color-mulled-wine: #584a6d;
+$common-color-prelude: #bdb1e3;
+$common-color-kobi: #ecb5cc;
+$common-color-prim: #f4eaf2;
+$common-color-alabaster: #fafafa;
+
+$common-4px: 0.25rem;
+$common-6px: 0.375rem;
+$common-8px: 0.5rem;
+$common-12px: 0.75rem;
+$common-14px: 0.875rem;
+$common-18px: 1.125rem;
+$common-24px: 1.5rem;
+$common-30px: 1.875rem;
+$common-36px: 2.25rem;
+$common-48px: 3rem;
+$common-60px: 3.75rem;
+$common-96px: 6rem;
+
+@mixin left-border {
+  border-left: 1px solid $common-color-prelude;
+  padding-left: $common-12px;
+}
