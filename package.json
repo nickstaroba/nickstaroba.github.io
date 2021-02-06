@@ -1,6 +1,6 @@
 {
   "name": "nickstaroba.github.io",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "A static website for a resume and a contact form.",
   "homepage": "https://github.com/nickstaroba/nickstaroba.github.io/",
@@ -16,7 +16,7 @@
     "dev:serve": "live-server docs",
     "dev:watch": "gulp",
     "lint": "prettier './**/*.{css,html,js,json,jsx,md,scss,ts,tsx}' --write ; eslint '**/*.{js,jsx,ts,tsx}' --fix ; stylelint 'src/**/*.{css,scss}'",
-    "release": "standard-version"
+    "release": "standard-version --commit-all"
   },
   "husky": {
     "hooks": {
@@ -28,7 +28,7 @@
   },
   "standard-version": {
     "scripts": {
-      "postbump": "npm run build"
+      "postbump": "npm run build && git add ."
     }
   },
   "browserslist": [
