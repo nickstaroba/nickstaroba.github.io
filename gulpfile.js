@@ -5,7 +5,7 @@ const fs = require("fs");
 const htmlmin = require("gulp-html-minifier-terser");
 const postcss = require("gulp-postcss");
 const rename = require("gulp-rename");
-const sass = require("gulp-sass");
+const sass = require("gulp-sass")(require("sass"));
 const { dest, series, src, watch } = require("gulp");
 const pkg = require("./package.json");
 
