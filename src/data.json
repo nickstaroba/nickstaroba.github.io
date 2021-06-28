@@ -24,11 +24,19 @@
   },
   "projects": [
     {
-      "company": "TD Ameritrade (Contract)",
-      "timeframe": "March 2020 to Present",
+      "company": "Raytheon Technologies (Contract)",
+      "timeframe": "April 2021 to Present",
       "jobTitle": "Frontend Developer",
-      "name": "Enterprise DevOps Application",
-      "body": "This application provides a convenient interface for managing DevOps tasks for one of the largest online brokerage firms in the world. The DevOps portal provides access to IT assets that development teams need to get their tasks completed. The entire project employs a number of applications including a bundled React shared component library.",
+      "name": "Enterprise Frontend Applications",
+      "body": "As part of the frontend team, we support a set of applications providing content and communications to employees through internal websites and applications. A shared component library utilizing Storybook, a user profile application, and a centralized media platform all rely on design direction from the company's new design system. This coordination facilitated the need for more shared libraries including tooling configurations and styling assets.",
+      "technologies": "Technology Summary: Agile, Azure DevOps, CI/CD, Component Library, CSS, Git, Gulp, HTML, JavaScript, Jest, JSS, React, React Hooks, React Testing Library, Redux, SASS, Unit Testing, TypeScript, webpack."
+    },
+    {
+      "company": "TD Ameritrade (Contract)",
+      "timeframe": "March 2020 to April 2021",
+      "jobTitle": "Frontend Developer",
+      "name": "Enterprise DevOps Platform",
+      "body": "This platform provides a convenient interface for managing DevOps tasks for one of the largest online brokerage firms in the world. The DevOps portal provides access to IT assets that development teams need to get their tasks completed. The entire project employs a number of applications including a bundled React shared component library.",
       "technologies": "Technology Summary: Agile, CI/CD, Component Library, CSS, Git, HTML, JavaScript, Jest, JSS, React, React Hooks, React Testing Library, Redux, Rollup, SASS, Unit Testing, webpack."
     },
     {
@@ -59,13 +67,11 @@
   "degrees": [
     {
       "date": "December 2017",
-      "location": "Ann Arbor, MI",
       "school": "Washtenaw Community College",
       "title": "AAS in Web Design and Development"
     },
     {
       "date": "In Progress",
-      "location": "Ypsilanti, MI",
       "school": "Eastern Michigan University",
       "title": "BS in Technology Management (Web Development Concentration)"
     }

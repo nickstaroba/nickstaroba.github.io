@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.3](https://github.com/nickstaroba/nickstaroba.github.io/compare/v0.1.2...v0.1.3) (2021-06-28)
+
+
+### Features
+
+* add new project ([e6fae70](https://github.com/nickstaroba/nickstaroba.github.io/commit/e6fae7097c777c4a5f55fd7f65b84466c67f5ee4))
+
 ### [0.1.2](https://github.com/nickstaroba/nickstaroba.github.io/compare/v0.1.1...v0.1.2) (2021-02-06)
 
 
