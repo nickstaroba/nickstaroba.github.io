@@ -1,0 +1,17 @@
+@import "common";
+
+$breakpoint: 575px;
+
+.Degree {
+  @media screen and (min-width: $breakpoint) {
+    @include left-border;
+  }
+
+  &:not(:last-child) {
+    margin: 0 0 $common-36px;
+  }
+
+  &__title {
+    font-weight: 400;
+  }
+}

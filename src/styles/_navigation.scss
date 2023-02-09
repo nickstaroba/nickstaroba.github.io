@@ -1,0 +1,48 @@
+@import "common";
+
+$svg-dimensions: 27px;
+
+.Navigation {
+  background: $common-color-prim;
+  overflow: auto;
+
+  &__menu {
+    display: flex;
+    font-family: $common-font-heading;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0 $common-12px;
+    text-align: center;
+    text-transform: uppercase;
+
+    @media screen and (min-width: 321px) {
+      justify-content: center;
+    }
+  }
+
+  &__menu-link {
+    align-items: center;
+    color: $common-color-mulled-wine;
+    display: flex;
+    font-weight: 300;
+    justify-content: center;
+    padding: $common-18px $common-12px;
+    text-decoration: none;
+
+    @media screen and (min-width: 321px) {
+      padding: $common-18px;
+    }
+
+    &:hover {
+      /* stylelint-disable function-no-unknown */
+      background: darken($common-color-prim, 5%);
+      /* stylelint-enable-line function-no-unknown */
+    }
+
+    svg {
+      height: $svg-dimensions;
+      width: $svg-dimensions;
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "pageTitle": "Nick Staroba - Frontend Developer",
+  "name": "Nick Staroba",
+  "title": "Frontend Developer",
+  "introductionParagraphs": [
+    "I am a frontend developer creating user-centric single page applications and utilizing experience with interaction design, visual design, usability guidelines, accessibility, and code standards to contribute to any part of the development process.",
+    "Core Technologies: CSS, Git, HTML, JavaScript (ES6, ECMAScript 2022), Jest, MUI, NPM, React, React Testing Library, Redux, SASS, Storybook, Styled Components,TypeScript, webpack.",
+    "Additional: Agile, Artifactory, Atlassian (Bitbucket, Jira), Code Review, Component Libraries, Design Systems, Documentation, Github (Github Actions), Gulp, Lerna, Linting, Mentoring, Responsive, Rollup, Server Side Rendering (SSR), Tooling, Unit Testing, User Experience (UX)."
+  ],
+  "links": [
+    {
+      "href": "/#contact",
+      "label": "Contact"
+    },
+    {
+      "href": "https://docs.google.com/document/d/1wCQ9IZMl3vhB3IFdqXLRU_wSsFMDWlNZa142A9v_cb0/export?format=pdf",
+      "label": "Resume"
+    }
+  ],
+  "github": {
+    "href": "https://github.com/nickstaroba/"
+  },
+  "linkedin": {
+    "href": "https://linkedin.com/in/nickstaroba"
+  },
+  "projects": [
+    {
+      "company": "Optum",
+      "location": "Remote",
+      "timeframe": "September 2021 to Present",
+      "jobTitle": "Frontend&nbsp;Developer",
+      "name": "UnitedHealthcare Mobile Application",
+      "body": "This application allows healthcare consumers to access their insurance cards, review and manage prescriptions, and view information on related spending. Aided in the redesign and conversion of a React Native application from flow to TypeScript. Reimplemented artifact publishing during the transition of infrastructure from Rally Health to Optum. Implemented critical features like ID cards, vaccine cards, and UI for claims and benefits.",
+      "technologies": "Technologies: Agile, Artifactory, Component Library, Github, JavaScript, Jest, React Native, React Testing Library, Redux, Styled Components, TypeScript, Unit Testing."
+    },
+    {
+      "company": "Independent&nbsp;Contracting",
+      "location": "Remote",
+      "timeframe": "May 2019 to August 2021",
+      "jobTitle": "Frontend&nbsp;Developer",
+      "name": "Enterprise Frontend Applications, Consumer User Interfaces",
+      "body": "Participated in frontend development in a range of domains, projects, and technologies while contracting independently for over two years. Key accomplishments included implementing the technologies and processes for building shared assets like component libraries and tooling configurations. Assets like these facilitated consistent user interfaces as well as consistent code across repositories.",
+      "technologies": "Technologies: Shared Component Library, CSS, Design System, ESLint, Github, Github Actions, Gulp, HTML, JavaScript, Jest, JSS, Lerna, lint-staged, React, React Testing Library, Redux, Rollup, SASS, SASS Modules, Storybook, Stylelint, TypeScript, webpack."
+    },
+    {
+      "company": "Aptiv",
+      "location": "Allen Park MI",
+      "timeframe": "February 2018 to May 2019",
+      "jobTitle": "Frontend&nbsp;Developer",
+      "name": "Enterprise Engineering Platform",
+      "body": "This platform aims to deliver fleet management, analytics, and telematics in real-time to connected vehicles. The frontend uses React and higher-order components to manage a set of complex data-grid views and user interactions. These interactions were implemented in coordination with the UX designer to ensure final implementations were accepted.",
+      "technologies": "Technologies: ag-Grid, BEM, Blueprint, CSS, Enzyme, Jest, JSDoc, Lodash, Moment.js, React, React Router, REST, SASS, Storybook, TypeScript, webpack."
+    },
+    {
+      "company": "Stout&nbsp;Systems",
+      "location": "Remote",
+      "timeframe": "November 2008 to February 2018",
+      "jobTitle": "Web Developer and Marketing Manager",
+      "name": "Internal Systems, External Properties, Promotion and Marketing",
+      "body": "Designed and developed internal web applications to manage the various aspects of promotion and marketing and other vital company activities. An internal analytics application, one example system, reduced the workload of a single activity by 75% while also replacing an obsolete desktop-only system. Public-facing work included designing and implementing a dynamic, content-driven, website using a common CMS and custom plugins that pull data from separate internal databases to show job postings and candidate listings on the website.",
+      "technologies": "Technologies: BEM, Bootstrap, CSS, D3.js, Docker, Grunt, HTML, HTML Email, JavaScript, SASS."
+    }
+  ],
+  "degrees": [
+    {
+      "date": "December 2017",
+      "school": "Washtenaw Community College",
+      "title": "AAS in Web Design and Development"
+    },
+    {
+      "date": "In Progress",
+      "school": "Eastern Michigan University",
+      "title": "BS in Technology Management (Web&nbsp;Development&nbsp;Concentration)"
+    }
+  ]
+}
