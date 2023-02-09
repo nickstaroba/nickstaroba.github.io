@@ -1,0 +1,54 @@
+{
+  "name": "nickstaroba.github.io",
+  "version": "0.1.8",
+  "private": true,
+  "description": "A static website for a resume and a contact form.",
+  "homepage": "https://github.com/nickstaroba/nickstaroba.github.io/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickstaroba/nickstaroba.github.io.git"
+  },
+  "license": "UNLICENSED",
+  "author": "Nick Staroba",
+  "scripts": {
+    "build": "gulp build",
+    "dev": "npm-run-all --parallel dev:*",
+    "dev:serve": "live-server docs",
+    "dev:watch": "gulp",
+    "lint": "npm run lint::prettier && npm run lint::eslint && npm run lint::stylelint",
+    "lint::eslint": "eslint \"**/*.{js,jsx,ts,tsx}\" --fix --resolve-plugins-relative-to ./",
+    "lint::prettier": "prettier \"./**/*.{css,html,js,json,jsx,md,scss,ts,tsx}\" --write",
+    "lint::stylelint": "stylelint \"./**/*.{css,scss}\" --fix",
+    "lint-staged": "lint-staged",
+    "prepare": "husky install"
+  },
+  "browserslist": [
+    "defaults"
+  ],
+  "dependencies": {
+    "autoprefixer": "10.4.13",
+    "del": "6.0.0",
+    "gulp": "4.0.2",
+    "gulp-cli": "2.3.0",
+    "gulp-data": "1.3.1",
+    "gulp-ejs": "5.1.0",
+    "gulp-html-minifier-terser": "7.1.0",
+    "gulp-postcss": "9.0.1",
+    "gulp-rename": "2.0.0",
+    "gulp-sass": "5.1.0",
+    "normalize.css": "8.0.1",
+    "sass": "1.58.0"
+  },
+  "devDependencies": {
+    "@eterna/eslint-config-javascript": "1.2.1",
+    "@eterna/lint-staged-config-eslint": "1.2.0",
+    "@eterna/lint-staged-config-prettier": "1.2.0",
+    "@eterna/lint-staged-config-stylelint": "1.2.1",
+    "@eterna/stylelint-config-sass": "1.2.0",
+    "ejs": "3.1.8",
+    "husky": "6.0.0",
+    "live-server": "1.2.2",
+    "npm-run-all": "4.1.5",
+    "prettier": "2.8.3"
+  }
+}

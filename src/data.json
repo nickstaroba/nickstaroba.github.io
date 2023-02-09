@@ -1,0 +1,85 @@
+{
+  "pageTitle": "Nick Staroba - Frontend Developer",
+  "name": "Nick Staroba",
+  "title": "Frontend Developer",
+  "introductionParagraphs": [
+    "I am a frontend developer building scalable, accessible, and user-centric single-page applications (SPAs) with a focus on maintainability, performance, and long-term architectural health. I bring a deep understanding of frontend technologies, design systems, and UX principles, and have a track record of leading initiatives, mentoring developers, and driving frontend strategy from concept to production.",
+    "Core Technologies: JavaScript (ES6+), Jest, Github Actions, GraphQL, gRPC, Linting (Commitlint, ESLint, Prettier, Stylelint), MUI, NextJS, React, React Hook Form, React Native, React Testing Library, Redux, REST, Storybook, CSS (JSS, SASS, Styled Components), Tailwind, TanStack (React Query, React Table), TypeScript, Vite, Webpack, Yup, Zustand.",
+    "Development Practices: Accessibility (WCAG), Agile, CI/CD, Component Architecture, Design Systems, Documentation, High Fidelity Design Implementation (Figma), Shared Assets (Artifactory, NPM, Organizational Linting Packages), Tooling, Unit Testing, User Experience (UX)."
+  ],
+  "links": [
+    {
+      "href": "https://docs.google.com/document/d/1wCQ9IZMl3vhB3IFdqXLRU_wSsFMDWlNZa142A9v_cb0/export?format=pdf",
+      "label": "Resume"
+    }
+  ],
+  "github": {
+    "href": "https://github.com/nickstaroba/"
+  },
+  "linkedin": {
+    "href": "https://linkedin.com/in/nickstaroba"
+  },
+  "projects": [
+    {
+      "company": "Whelen Engineering",
+      "location": "Remote Contract",
+      "timeframe": "March 2023 to November 2025",
+      "jobTitle": "Senior&nbsp;Frontend&nbsp;Developer",
+      "body": "Led the creation of an Enterprise Resource Planning (ERP) application, introducing frontend best practices, design consistency, code reviews, and shared tooling. Introduced a new UI stack to the project, and collaborated on a new gRPC implementation. Created a scalable component library using MUI, Storybook, and React Hook Form, enabling faster development across teams."
+    },
+    {
+      "company": "Optum (UnitedHealthcare)",
+      "location": "Remote",
+      "timeframe": "September 2021 to March 2023",
+      "jobTitle": "Frontend&nbsp;Developer",
+      "body": "Concluded a cross-team effort to redesign and refactor UHC’s mobile application, converting from Flow to TypeScript, introducing new and redesigned screens, and setting up architecture to facilitate federation. Implemented mobile features used by millions of users (Claims UI, Login)."
+    },
+    {
+      "company": "Raytheon Technologies",
+      "location": "Remote Contract",
+      "timeframe": "April 2021 to August 2021",
+      "jobTitle": "Frontend&nbsp;Developer",
+      "body": "Supported a set of intranet sites by introducing shared assets. Utilizing Storybook, a set of shared styling assets, linting configurations, and a component library allowed for quicker and consistent implementation of the new internal design system across properties."
+    },
+    {
+      "company": "TD Ameritrade",
+      "location": "Remote",
+      "timeframe": "March 2020 to April 2021",
+      "jobTitle": "Frontend&nbsp;Developer",
+      "body": "Introduced Storybook and improved the bundling process of a shared component library used in an interface for managing devops tasks for teams supporting the online brokerage. Resolved and mitigated support tickets and implemented new features within asynchronous data grids."
+    },
+    {
+      "company": "Ford Motor Company",
+      "location": "Onsite Contract",
+      "timeframe": "October 2019 to March 2020",
+      "jobTitle": "Frontend&nbsp;Developer",
+      "body": "Refactored the support site for Ford Sync where users were able to find and download updates for their infotainment systems. Resolved implementation issues with the API client on the frontend as well as issues with the organization and utilization of reusable components."
+    },
+    {
+      "company": "Domino’s Pizza, Inc.",
+      "location": "Onsite Contract",
+      "timeframe": "October 2019 to March 2020",
+      "jobTitle": "Frontend&nbsp;Developer",
+      "body": "Implemented features for the new store system which operates and manages individual restaurants. Started the discussions and wrote the formal code standards and conventions used among the three new frontend applications. Introduced new linting dependencies to add consistency and facilitate application of the new standards."
+    },
+    {
+      "company": "Aptiv",
+      "location": "Onsite",
+      "timeframe": "February 2018 to May 2019",
+      "jobTitle": "Frontend&nbsp;Developer",
+      "body": "Built performant, data-intensive dashboards for connected vehicles in a React-based enterprise analytics platform. Collaborated closely with UX to translate complex workflows into intuitive UI components. Focused on modularity, unit testing, and documentation for highly reusable code."
+    }
+  ],
+  "degrees": [
+    {
+      "date": "December 2017",
+      "school": "Washtenaw Community College",
+      "title": "AAS in Web Design and Development"
+    },
+    {
+      "date": "In Progress",
+      "school": "Eastern Michigan University",
+      "title": "BS in Technology Management (Web&nbsp;Development&nbsp;Concentration)"
+    }
+  ]
+}

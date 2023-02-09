@@ -1,0 +1,22 @@
+@import "common";
+
+* {
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0 0 $common-24px;
+}
+
+a,
+button,
+input,
+textarea {
+  &:focus {
+    outline-offset: -2px;
+    outline-style: solid;
+    outline-width: 2px;
+    position: relative;
+    z-index: 999;
+  }
+}

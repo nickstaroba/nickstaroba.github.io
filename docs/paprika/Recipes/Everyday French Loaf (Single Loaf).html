@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <style type="text/css">
+      /* Shared styles */
+      body {
+        font-family: Helvetica, sans-serif;
+        font-size: 16px;
+        color: #34302e;
+        margin: 0.25in;
+      }
+      .name {
+        font-size: 18px;
+        font-family: Helvetica, sans-serif;
+        font-weight: normal;
+        margin: 0 0 10px 0;
+      }
+      .categories {
+        color: #605d5d;
+        font-size: 14px;
+        font-family: Helvetica, sans-serif;
+        font-style: italic;
+      }
+      .rating {
+        color: #d10505;
+        font-size: 14px;
+      }
+      .metadata {
+        font-size: 14px;
+      }
+      .infobox p {
+        margin: 0;
+        line-height: 150%;
+      }
+      .subhead {
+        color: #d10505;
+        font-weight: bold;
+        font-size: 14px;
+        text-transform: uppercase;
+        margin: 10px 0;
+      }
+
+      .ingredients p {
+        margin: 4px 0;
+      }
+      /* To prevent nutrition/directions from getting too close
+               to ingredients */
+      .ingredients {
+        padding-bottom: 10px;
+      }
+      .clear {
+        clear: both;
+      }
+      a {
+        color: #4990e2;
+        text-decoration: none;
+      }
+      /* Full page specific styles */
+      .text {
+        line-height: 130%;
+      }
+      .photobox {
+        float: left;
+        margin-right: 14px;
+      }
+      .photo {
+        max-width: 140px;
+        max-height: 140px;
+        width: auto;
+        height: auto;
+      }
+
+      .inline-image {
+        max-width: 25%;
+        max-height: 25%;
+        width: auto;
+        height: auto;
+      }
+      .photoswipe {
+        border: 1px #dddddd solid;
+        cursor: pointer;
+      }
+      .pswp__caption__center {
+        text-align: center !important;
+      }
+      .recipe {
+        page-break-after: always;
+      }
+      .recipe:first-child {
+        border-top: 0 none;
+        margin-top: 0;
+        padding-top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Recipe -->
+    <div class="recipe" itemscope itemtype="http://schema.org/Recipe">
+      <div class="infobox">
+        <!-- Image -->
+
+        <div class="photobox">
+          <a
+            href="https://www.kingarthurbaking.com/sites/default/files/2024-07/Everyday-French-Loaf_1366.jpg"
+          >
+            <img
+              src="Images/0D0F6C25-10C6-4AA8-849C-9AB380B15B7E/769F7DAF-4A66-4B32-AE10-AF3DD4470618.jpg"
+              itemprop="image"
+              class="photo photoswipe"
+            />
+          </a>
+        </div>
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">Everyday French Loaf (Single Loaf)</h1>
+
+        <!-- Info -->
+
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="0"></p>
+
+        <p class="metadata">
+          <!-- Cook time, prep time, servings, difficulty -->
+
+          <!-- Source -->
+
+          <b>Source: </b>
+
+          <a
+            itemprop="url"
+            href="https://www.kingarthurbaking.com/recipes/everyday-french-loaf-recipe"
+          >
+            <span itemprop="author">kingarthurbaking.com</span>
+          </a>
+        </p>
+
+        <div class="clear"></div>
+      </div>
+
+      <div class="left-column">
+        <!-- Ingredients -->
+
+        <div class="ingredientsbox">
+          <h3 class="subhead">Ingredients</h3>
+          <div class="ingredients text">
+            <p class="line" itemprop="recipeIngredient">
+              <strong>Preferment</strong>
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>166</strong>g Kirkland All-Purpose Flour
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>166</strong>g Water
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>0.8</strong>g saf-instant Yeast
+            </p>
+            <br />
+            <p class="line" itemprop="recipeIngredient">
+              <strong>Dough</strong>
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>390</strong>g Kirkland All-Purpose Flour
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>240</strong>g Water (110°F)
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1.5</strong>g saf-instant Yeast
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>11.3</strong>g Salt
+            </p>
+            <p class="line" itemprop="recipeIngredient">Preferment</p>
+            <p class="line" itemprop="recipeIngredient">
+              Pinch Morton Himalayan Pink Salt (optional)
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              Polenta or Corn Meal (optional)
+            </p>
+          </div>
+        </div>
+
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+      </div>
+
+      <div class="right-column">
+        <!-- Description -->
+
+        <!-- Directions -->
+
+        <div class="directionsbox">
+          <h3 class="subhead">Directions</h3>
+          <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">
+              <a
+                href="https://www.kingarthurbaking.com/recipes/everyday-french-loaf-recipe"
+                >Original Recipe</a
+              >
+            </p>
+            <p class="line">
+              The original recipe is for two small loaves. It has some good
+              links and descriptions of techniques that are worth reviewing but
+              are slightly different than what I do.
+            </p>
+            <br /><br />
+            <p class="line"><strong>Tools</strong></p>
+            <p class="line">
+              -
+              <a href="https://www.amazon.com/dp/B00LGLHUA0"
+                >Pyrex mixing bowls</a
+              >. The thick glass insulates well.<br />- Brotform for a 3 lb loaf
+              (15.5 x 6 x 3.5&quot;). It&apos;s a little long for this loaf, but
+              the width is good.<br />-
+              <a href="https://www.amazon.com/dp/B00JXVNUI6"
+                >NerdChef Steel Stone</a
+              >. This is just the right size for this single loaf or the two
+              loaves of the original recipe.<br />- Wood Cutting Board (24 x
+              18&quot;). While shaping the dough, I let it rest on this rather
+              than on a cold surface like stone countertops.<br />-
+              <a
+                href="https://www.farmhousepottery.com/products/copy-of-reusable-bread-bag-stripe?variant=40277459009572"
+                >Reusable Bread Bag</a
+              >. Bread ages better on the countertop in one of these bags as
+              opposed to a sealed plastic container.<br />- Kitchen Thermometer
+              (probe)<br />- Baker&apos;s Peel (for placing into oven)<br />-
+              Flour Wand (for dusting flour)<br />- Bread Lame (for
+              <a href="https://www.youtube.com/watch?v=ZvWnZgMtgMo">scoring</a>
+              the dough)<br />- Bench Knife<br />- Silicon Spatula<br />- Cotton
+              kitchen towels or linen napkins<br />- Small mesh strainer
+            </p>
+            <br /><br />
+            <p class="line"><strong>Techniques</strong></p>
+            <p class="line">
+              -
+              <a href="https://www.youtube.com/watch?v=eTo_Ho5C6sk">Bowl Fold</a
+              ><br />-
+              <a href="https://www.youtube.com/watch?v=z1_zqV3Qomk">Coil Fold</a
+              ><br />-
+              <a href="https://www.youtube.com/shorts/88vzWE_frCA">Preshaping</a
+              >. I don&apos;t do this exactly but I can&apos;t find a video to
+              show what I do. I&apos;ve described what I do below.
+            </p>
+            <br /><br />
+            <p class="line"><strong>Ingredients</strong></p>
+            <p class="line">
+              - Kirkland All-Purpose flour has enough protein for breads. I like
+              the texture and flavor of this better than King Arthur Bread
+              Flour.<br />- Saf-instant yeast has been working well for me.
+              I&apos;m not sure how well other yeasts perform.<br />- Morton
+              Pink Himalayan Salt sprinkled on top of the dough before it goes
+              into the oven for a little salt flavor on the top crust. Other
+              salts turn into black, moist spots on the bread after a day or
+              two.
+            </p>
+            <br /><br />
+            <p class="line"><strong>Timing</strong></p>
+            <p class="line">This is a two-day process.</p>
+            <p class="line">
+              The preferment can be used between 12 and 16 hours after It is
+              mixed.
+            </p>
+            <p class="line">The rest of the process takes roughly 5 hours.</p>
+            <p class="line">
+              I will start my preferment at 9 PM and set a timer for 16 hours.
+            </p>
+            <p class="line">
+              The next day, I will start the dough around 12-1 PM to have the
+              bread out of the oven and cooled for dinner.
+            </p>
+            <br /><br />
+            <p class="line"><strong>Day 1 - Preferment</strong></p>
+            <p class="line">
+              1. In a medium bowl, combine the flour, yeast, and water.
+            </p>
+            <p class="line">2. Mix until no dry patches of flour remain.</p>
+            <p class="line">
+              3. Scrape down the sides of the bowl, cover, and let it rest
+              overnight at room temperature, 12 to 16 hours.
+            </p>
+            <br /><br />
+            <p class="line"><strong>Day 2 - Dough</strong></p>
+            <p class="line"><strong>Mixing</strong></p>
+            <p class="line">1. Measure out the flour, yeast, and salt.</p>
+            <p class="line">
+              2. Mix the salt and yeast into the flour with a whisk.
+            </p>
+            <p class="line">
+              3. Warm a large glass mixing bowl with hot water from the sink.
+            </p>
+            <p class="line">
+              4. Heat water for dough to 115°F in a kettle or saucepan.
+            </p>
+            <p class="line">
+              5. Empty the mixing bowl and fill it with the heated water.
+            </p>
+            <p class="line">
+              6. Let the water cool to 110, and then scrape all of the
+              preferment into the large mixing bowl.
+            </p>
+            <p class="line">
+              7. With a clean hand, use a claw shape to mix the preferment into
+              the water. The mix will resemble chunky pancake batter.
+            </p>
+            <p class="line">
+              8. Add flour, salt, yeast mixture to the preferment mixture and
+              mix until no dry patches of flour remain.
+            </p>
+            <p class="line">
+              9. With a wet hand, work the dough for 30 seconds to a minute to
+              smooth it out a little. This step is not crucial.
+            </p>
+            <p class="line">10. Cover the bowl.</p>
+            <br /><br />
+            <p class="line"><strong>Bulk Ferment / Folding</strong></p>
+            <p class="line">
+              1. Set a timer for 2 hours. This is timing for bulk fermentation
+            </p>
+            <p class="line">
+              2. Set a timer for 20-25 minutes. This is timing for bowl and coil
+              folds.
+            </p>
+            <p class="line">
+              3. After the first 20-25 minutes, with a wet hand do a set of 8-12
+              bowl folds. Stop when the dough starts to resist stretching.
+            </p>
+            <p class="line">4. Set a timer for 20-25 minutes.</p>
+            <p class="line">
+              5. With a wet hand do a set of 6-8 bowl folds. Stop when the dough
+              starts to resist stretching.
+            </p>
+            <p class="line">6. Set a timer for 20-25 minutes.</p>
+            <p class="line">7. With wet hands do 2 coil folds.</p>
+            <p class="line">
+              8. Cover and let the 2 hour bulk ferment finish (there should be
+              about 30-60 minutes left on the 2 hour timer at this point).
+            </p>
+            <br /><br />
+            <p class="line"><strong>Preshaping</strong></p>
+            <p class="line">1. Dust the cutting board with flour.</p>
+            <p class="line">
+              2. Use a spatula or scraper to gently ease the dough out of the
+              bowl and onto the cutting board.
+            </p>
+            <p class="line">
+              3. With wet hands, gently preshape the dough into a round.
+            </p>
+            <p class="line">
+              4. There are many ways to do this. I haven&apos;t found any videos
+              to show how I do this.
+            </p>
+            <p class="line">
+              5. With the dough on the board, it will be big, round, and flat.
+              With wet hands, I grab the sides and bring them to the middle to
+              start forming a ball.
+            </p>
+            <p class="line">
+              6. I then pick up the dough in my left and continue to bring in
+              the sides with my right hand to form the ball. Then I kind of
+              twist the connecting point against my palm like I&apos;m closing a
+              jar.
+            </p>
+            <p class="line">
+              7. I place this seam side down on a floured part of the cutting
+              board.
+            </p>
+            <p class="line">
+              8. Clean up the flour around the round, and cover with a damp
+              towel.
+            </p>
+            <p class="line">9. Rest for 20 minutes.</p>
+            <br /><br />
+            <p class="line"><strong>Shaping</strong></p>
+            <p class="line">
+              1. Prepare the brotform with a liner or towel and dust with flour.
+            </p>
+            <p class="line">2. Dust the surface next to the round.</p>
+            <p class="line">
+              3. Flip the round and gently pat into an oval shape with the long
+              side facing towards you.
+            </p>
+            <p class="line">
+              4. Fold the short sides into the middle of the oval.
+            </p>
+            <p class="line">5. Fold the near corners into the middle.</p>
+            <p class="line">
+              6. Roll the dough away from you while applying pressure to create
+              a tube shape.
+            </p>
+            <p class="line">
+              7. With the seam down, fix the ends of the tube by stretching the
+              dough over and under and let rest on the board for a minute or two
+              to let the seams bind.
+            </p>
+            <p class="line">
+              8. With the bench knife or your hands, transfer the loaf into the
+              brotform with seam side up.
+            </p>
+            <p class="line">9. Fix any separation of the seams at this time.</p>
+            <p class="line">
+              10. Cover with a damp towel and let proof until a floured finger
+              poke stays poked (about 1.5 - 2 hours). This can take longer, but
+              using a bread proofing box or an oven with a proofing mode helps.
+            </p>
+            <br /><br />
+            <p class="line"><strong>Baking</strong></p>
+            <p class="line">
+              1. Preheat the oven to 450°F for about 45 minutes before baking
+              with the baking steel in the center and rimmed baking pan
+              underneath.
+            </p>
+            <p class="line">2. Once the poke test works, prepare to bake.</p>
+            <p class="line">
+              3. Set 1 - 1.5 cups of water to boil. Set oven mitts and a glass
+              measuring cup with pour spout near the oven.
+            </p>
+            <p class="line">4. Cut a piece of parchment paper.</p>
+            <p class="line">5. Set out bread lame.</p>
+            <p class="line">
+              6. Dust the parchment paper with flour or, using a small mesh
+              strainer, sprinkle polenta or corn meal in an oval shape on the
+              parchment paper.
+            </p>
+            <p class="line">
+              7. Tip the loaf out of the brotform onto the dusted parchment
+              paper.
+            </p>
+            <p class="line">8. Score the bread in one stroke.</p>
+            <p class="line">
+              9. Sprinkle the score and top of the loaf with the pink Himalayan
+              salt.
+            </p>
+            <p class="line">
+              10. Transfer loaf with the parchment paper onto the baking steel
+              in the oven.
+            </p>
+            <p class="line">
+              11. Using oven mitts and the glass measuring cup, pour 1 - 1.5
+              cups of boiling water onto the rimmed pan in the oven and shut the
+              oven door quickly to trap the steam.
+            </p>
+            <p class="line">
+              12. If the bread does not brown evenly, turn it once halfway
+              through the bake.
+            </p>
+            <p class="line">
+              13. Bake for 30 - 32 minutes or until internal temps are between
+              190 - 210°F.
+            </p>
+            <p class="line">
+              14. Place on a cooling rack for 30 - 60 minutes before cutting.
+              Cutting early seems to reduce the lifespan of the bread on the
+              countertop. I store the bread in a bread bag, with the cut side
+              placed down against the counter. The cut side gets less stale this
+              way. Perfectly sealed bags or containers ruin the crust in my
+              opinion.<br />
+            </p>
+          </div>
+        </div>
+
+        <!-- Notes -->
+
+        <!-- Nutrition (in regular mode it goes below the notes) -->
+
+        <!-- Used in two different places depending on the recipe layout -->
+      </div>
+
+      <div class="clear"></div>
+    </div>
+  </body>
+</html>

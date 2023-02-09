@@ -1,0 +1,28 @@
+@import "common";
+
+$breakpoint: 575px;
+
+.Project {
+  @media screen and (min-width: $breakpoint) {
+    @include left-border;
+  }
+
+  &:not(:last-child) {
+    margin: 0 0 $common-48px;
+  }
+
+  &__header {
+    margin: 0 0 $common-24px;
+  }
+
+  &__title {
+    font-family: $common-font-heading;
+    font-size: $common-24px;
+    font-weight: 400;
+    margin: 0;
+  }
+
+  &__body {
+    font-weight: 300;
+  }
+}

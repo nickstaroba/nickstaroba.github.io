@@ -1,0 +1,11 @@
+# Project Directories
+node_modules/
+
+# IDE
+.idea/
+
+# Misc
+.DS_store
+
+# Logs
+*.log
