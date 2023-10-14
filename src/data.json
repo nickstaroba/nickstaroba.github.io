@@ -4,8 +4,8 @@
   "title": "Frontend Developer",
   "introductionParagraphs": [
     "I am a frontend developer creating user-centric single page applications and utilizing experience with interaction design, visual design, usability guidelines, accessibility, and code standards to contribute to any part of the development process.",
-    "Core Technologies: CSS, Git, HTML, JavaScript (ES6, ECMAScript 2022), Jest, MUI, NPM, React, React Testing Library, Redux, SASS, Storybook, Styled Components,TypeScript, webpack.",
-    "Additional: Agile, Artifactory, Atlassian (Bitbucket, Jira), Code Review, Component Libraries, Design Systems, Documentation, Github (Github Actions), Gulp, Lerna, Linting, Mentoring, Responsive, Rollup, Server Side Rendering (SSR), Tooling, Unit Testing, User Experience (UX)."
+    "Core Technologies: CSS, Git, HTML, JavaScript (ES6, ECMAScript), Jest, MUI, NPM, React, React Testing Library, Redux, SASS, Storybook, Styled Components,TypeScript, webpack.",
+    "Additional: Azure DevOps, Agile, Artifactory, Atlassian (Bitbucket, Jira), Code Review, Component Libraries, Design Systems, Documentation, Github (Github Actions), Gulp, Lerna, Linting, Mentoring, Responsive, Rollup, Server Side Rendering (SSR), Tooling, Unit Testing, User Experience (UX)."
   ],
   "links": [
     {
@@ -25,9 +25,18 @@
   },
   "projects": [
     {
+      "company": "Whelen Engineering",
+      "location": "Remote",
+      "timeframe": "March 2023 to Present",
+      "jobTitle": "Frontend&nbsp;Developer",
+      "name": "Enterprise Frontend Applications, Consumer User Interfaces",
+      "body": "This application manages inventory, ordering, and other operational functions like managing users and manufacturing assets. Transitioned the current application from Create React App to a Vite configuration with robust linting and Storybook. Currently implementing a new website with Next.js and MUI that enables customers to order directly.",
+      "technologies": "Technologies: Azure DevOps, CSS, ESLint, JavaScript, Next.js, MUI, React, React Bootstrap, SASS, Storybook, TypeScript, Vite."
+    },
+    {
       "company": "Optum",
       "location": "Remote",
-      "timeframe": "September 2021 to Present",
+      "timeframe": "September 2021 to March 2023",
       "jobTitle": "Frontend&nbsp;Developer",
       "name": "UnitedHealthcare Mobile Application",
       "body": "This application allows healthcare consumers to access their insurance cards, review and manage prescriptions, and view information on related spending. Aided in the redesign and conversion of a React Native application from flow to TypeScript. Reimplemented artifact publishing during the transition of infrastructure from Rally Health to Optum. Implemented critical features like ID cards, vaccine cards, and UI for claims and benefits.",
